@@ -1,0 +1,160 @@
+.textlogo{
+    font-size: 25px;
+}
+
+.h1{
+    font-size: 75px;
+    text-align: center;
+    padding: 10px; 
+    font-family: 'Staatliches', "cursive";
+    letter-spacing: 5px;
+}
+
+.cardbr{
+    /* border: 2px black;
+    border-radius: 50px 50px;
+    box-shadow: 0 200px 400px rgb(100 10 100 / 10%), 0 8px 16px rgb(100 10 100 / 10%); */
+    /* border-radius: 5rem; */
+    max-width: 100px;
+    text-align: center;
+    
+}
+.card{
+    border-radius: 100px;
+    border:5px solid black;
+}
+
+.card-text{
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+.card:hover{
+    transform: translateY(-15px);
+    transition: transform .75s;
+    background-color: #C9CCD5;
+    
+}
+
+.imagesize{
+    width: 260px;
+    height: 260px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px 30px;
+}
+
+.btnpreview{
+    max-width: 100px;
+    font-family: 'Rampart One', 'cursive';
+}
+
+.imagemodal{
+    width: 400px;
+    height: 400px;
+}
+
+.modal-body{
+    text-align: center;
+}
+
+.navbar{
+    background-color: #93B5C6;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbarmenu{
+    font-size: 20px;
+}
+
+.navbarmenu:hover{
+    background-color: #DCD6F7;
+
+}
+
+.nav-item{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.spacer{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.feedback{
+    background-color: #93B5C6;
+    text-align: center;
+    font-family: 'Staatliches', "cursive";
+    font-size: 100px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.form{
+    box-shadow: 100px;
+    background-color: #C9CCD5;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    box-shadow: 15px 15px;
+}
+
+.form:hover{
+    transform: scale(1.1);
+    transition: transform .50s;
+}
+
+.btnsubmit{
+    text-align: end;
+    margin-right: 20px;
+}
+
+.form-label{
+    font-size: 20px;
+    font-family: 'Staatliches', "cursive";
+    margin-left: 5px;
+}
+
+.alert{
+    padding: 10px;
+    box-shadow: 5px 5px;
+}
+
+.h1{
+    font-size: 75px;
+    text-align: center;
+    padding: 10px; 
+    font-family: 'Staatliches', "cursive";
+    letter-spacing: 5px;
+} 
+
+.footer{
+    background-color: #93B5C6;
+    text-align: center;
+    padding:20px;
+}
+
+.footertitle{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.footervalue{
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+/* footer title font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* footer title font */
+
+/* footer value font*/
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+/* footer value font*/
+
